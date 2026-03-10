@@ -1,0 +1,8 @@
+2026-03-10 07:17:42 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported.
+2026-03-10 07:17:42 [INFO ] main: Starting self-bot...
+2026-03-10 07:17:42 [INFO ] discord.client: Logging in using static token.
+2026-03-10 07:17:43 [INFO ] discord.http: Found user agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36", build number 507841.
+2026-03-10 07:17:43 [INFO ] discord.http: Found TLS fingerprint target "chrome142".
+2026-03-10 07:17:43 [CRITICAL] main: Invalid token. Check config.json 'token' field.
+2026-03-10 07:17:43 [INFO ] bot.core: Shutting down...
+2026-03-10 07:17:43 [INFO ] main: Shutdown complete

@@ -1,0 +1,34 @@
+{
+  "token": "",
+  "prefix": "!",
+  "owner_id": "",
+  "command_channels": ["987654321098765432"],
+  "auto_join_enabled": true,
+  "join_delay_seconds": 1.5,
+  "webhook_cooldown_seconds": 2,
+  "log_file": "bot.log",
+  "log_max_bytes": 5242880,
+  "global_webhook_url": "",
+  "queues": {
+    "mctiers": {
+      "join_command": "!join",
+      "leave_command": "!leave",
+      "keywords": ["join mctiers", "mctiers queue", "hop in mctiers"],
+      "monitored_channels": ["111222333444555666"],
+      "open_keywords": ["queue open", "mctiers open", "queue is now open"],
+      "close_keywords": ["queue closed", "mctiers closed", "queue is now closed"],
+      "auto_join": true,
+      "webhook_url": "https://discord.com/api/webhooks/MCTIERS_ID/MCTIERS_TOKEN"
+    },
+    "ranked": {
+      "join_command": "!ranked join",
+      "leave_command": "!ranked leave",
+      "keywords": ["join ranked", "ranked queue"],
+      "monitored_channels": [],
+      "open_keywords": ["ranked open"],
+      "close_keywords": ["ranked closed"],
+      "auto_join": false,
+      "webhook_url": ""
+    }
+  }
+}
